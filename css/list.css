@@ -1,0 +1,535 @@
+body, html, div, dl, dt, dd, ul, li, ol, h1, h2, h3, h4, h5, h6, form, fieldset, input, textarea, p, th, td, a, img, span {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: tahoma,arial,\5b8b\4f53,sans-serif;
+}
+body, html {
+    overflow-x: hidden;
+}
+li{
+    list-style: none;
+}
+/* 中部主要内容 */
+main{
+    width: 100%;
+    background-color: #EDEDED;
+    overflow: hidden;
+}
+main p{
+    width: 1200px;
+    margin: 0 auto;
+    height: 50px;
+    line-height: 50px;
+}
+main p span a:hover{
+    color: red;
+}
+main>div{
+    width: 1200px;
+    background-color: #fff;
+    margin: 0px auto 30px;
+    box-shadow: rgb(204, 204, 204) 0px 2px 5px;
+   
+}
+.selectCondition dl {
+    border-bottom: 1px dashed #ededed;
+    min-height: 46px;
+    clear: both;
+    position: relative;
+    overflow: hidden;
+    background: #f5f5f5;
+}
+.selectCondition dl dt, .selectCondition dl dd {
+    float: left;
+}
+.selectCondition dl dd .categoryDd {
+    padding-bottom: 12px;
+    padding-left: 10px;
+    width: 960px;
+    /* *font-size: 0; */
+}
+.selectCondition dl dt {
+    width: 81px;
+    padding-left: 30px;
+    line-height: 45px;
+    color: #666;
+}
+.selectCondition dl dd {
+    padding-left: 10px;
+    width: 1078px;
+    min-height: 46px;
+    background: #fff;
+}
+.selectCondition dl dt, .selectCondition dl dd {
+    float: left;
+}
+.selectCondition dl dd a, .selectCondition dl dd a.on i{
+    display: inline-block;
+
+}
+.selectCondition dl dd .categoryDd a.on {
+    border: 1px solid #e93b39;
+    line-height: 20px;
+    /* line-height: 23px\9\0; */
+    color: #e93b39;
+    position: relative;
+}
+.selectCondition dl dd .categoryDd a, .smallList a {
+    margin: 12px 0 0;
+    /* margin: 12px 3px 0;
+    vertical-align: top; */
+    height: 22px;
+    padding: 0 22px 0 10px;
+    white-space: nowrap;
+    max-width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.selectCondition dl .reset {
+    position: absolute;
+    right: 30px;
+    top: 19px;
+    padding-left: 15px;
+    color: #000;
+}
+.item_dl .smallList, .brand {
+    max-height: 70px;
+    height: auto;
+}
+.smallList {
+    width: 960px;
+    overflow: hidden;
+    padding: 3px 0 0 0;
+    height: 32px;
+}
+.selectCondition dl a.brandChoice {
+    position: absolute;
+    right: 24px;
+    top: 15px;
+    padding-right: 12px;
+    width: 30px;
+    background-position: 27px -107px;
+    background-image: url(http://pic16.secooimg.com/imagesPic/searchlist/search_icon3.png);
+    background-repeat: no-repeat;
+}
+.selectCondition dl a.more, .selectCondition dl a.brandmore {
+    position: absolute;
+    right: 69px;
+    top: 15px;
+    padding-left: 12px;
+    width: 30px;
+    background-position: 0 -71px;
+    /* *background-position: 0 -70px; */
+}
+/* 产品列表 */
+.product_box{
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+.product_tips {
+    background: #fff;
+    margin-left: -1px;
+    height: 40px;
+    font-size: 0;
+}
+.product_tips a.on, .product_tips a:hover {
+    color: #e93b39;
+}
+.product_tips a.on {
+    border-top: 2px solid #e93b39;
+}
+.product_tips a {
+    padding: 0 30px;
+    height: 29px;
+    display: inline-block;
+    font: normal 18px/18px "microsoft yahei";
+    color: #999;
+    background: url(http://pic16.secooimg.com/imagesPic/searchlist/listline.jpg) no-repeat center left;
+    text-align: center;
+    padding-top: 9px;
+    position: relative;
+}
+.product_control {
+    padding: 10px 30px 0;
+    min-height: 30px;
+    background: #f5f5f5;
+    font-size: 0;
+    position: relative;
+}
+.product_control_btn {
+    font-size: 0;
+    margin-right: 10px;
+    vertical-align: top;
+}
+.product_control_price {
+    width: 124px;
+    height: 44px;
+    overflow: hidden;
+    vertical-align: middle;
+    margin: -10px 10px 0 0;
+}
+.product_control_check {
+    height: 34px;
+    vertical-align: top;
+}
+.product_control_search {
+    width: 192px;
+    height: 44px;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    margin: -10px 0 0 0;
+}
+.product_control_page {
+    position: absolute;
+    right: 30px;
+    top: 12px;
+    height: 19px;
+}
+.product_control_btn {
+    display: inline-block;
+
+}
+/* @media screen and(-webkit-min-device-pixel-ratio: 0)
+} */
+.product_control_btn a {
+    line-height: 20px;
+}
+.product_control_btn a {
+    background: #fff;
+    width: 45px;
+    height: 22px;
+    position: relative;
+    text-align: center;
+    border: 1px solid #ededed;
+    margin-left: -1px;
+    /* *margin-left: -2px; */
+    line-height: 25px;
+    /* *line-height: 20px; */
+    line-height: 25px\9\0;
+    position: relative;
+    z-index: 1;
+
+ 
+}
+.product_control_btn a.on {
+    background: #e93b39;
+    border-color: #e93b39;
+    color: #fff;
+}
+.product_control_price div {
+    width: 104px;
+    /* *width: 114px; */
+    height: 24px;
+    padding: 10px 10px 0;
+    font-size: 0;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+}
+.product_control_price span {
+    width: 45px;
+    height: 22px;
+    border: 1px solid #ededed;
+    background-color: #fff;
+    background-position: 3px -281px;
+    text-align: right;
+
+}
+.product_control_price div i {
+    border-top: 1px solid #acacac;
+    width: 8px;
+    margin: 0 1px;
+    height: 3px;
+    vertical-align: middle;
+
+}
+.product_control_price div a.empty {
+    border: 1px solid #e0e0e0;
+    background: #fff;
+    margin-right: 5px;
+    color: #666;
+}
+.product_control_price div a {
+    width: 45px;
+    height: 18px;
+    line-height: 17px;
+    margin: 10px 0;
+
+}
+.product_control_price span {
+    width: 45px;
+    height: 22px;
+    border: 1px solid #ededed;
+    background-color: #fff;
+    background-position: 3px -281px;
+    text-align: right;
+}
+#formSearch, .search_brand_in .brand_empty, .search_brand .brand_empty, .product_more_list dl, .product_control_want span, .product_control_want a, .product_page span, .product_page strong b, .product_page strong, .product_page a, .commodity-list dl dd.dl_tips span, .commodity-list dl, .product_control_check label, .product_control_check, .product_control_price div a, .product_control_price div i, .product_control_price span, .product_control_price, .product_control_btn a i, .product_control_btn, .product_control_btn a, .product_tips a, .control a.put i, .control a.open i, .control a, .search_brand_in label, .search_brand_btn a, .brand_search_box, .searchResult, .pageTitle a:link, .pageTitle a:visited, .pageTitle span, .selectCondition dl dd a, .selectCondition dl dd a.on i, .pageTitle span, .search_brand a {
+    display: inline-block;
+    /* *zoom: 1;
+    *display: inline; */
+}
+.commodity-list dl dd .mini_nav_box ul li i, .selectCondition dl a.brandmore, .selectCondition dl a.brandChoice, .commodity-list dl dt strong, .commodity-list dl dt em, .commodity-list dl dd.mini_nav a.next_nav, .commodity-list dl dd.mini_nav a.prev_nav, .product_control_price span, .product_control_btn a i.p, .product_control_btn a i, .control a.put i, .control a.open i, .selectCondition dl .choice, .selectCondition dl .more, .search_brand_list a i, .brand_search_box, .pageTitle em, .selectCondition dl dd a.on i, .selectCondition dl .reset i, .product_control_page a i, .one-box .teach-list li, .love-spc li .des-con span, .sl-bar-trigger .arr, .showLogo li a i, .bt-feed .feed-close, .suc-feed i {
+    background-image: url(http://pic16.secooimg.com/imagesPic/searchlist/search_icon3.png);
+    background-repeat: no-repeat;
+}
+.product_control_price span input {
+    width: 33px;
+    height: 14px;
+    border: 0 none;
+    margin-top: 4px;
+}
+textarea, input[type ="text"], input[type ="password"] {
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
+textarea, input[type ="text"], input[type ="password"], select {
+    display: inline-block;
+    color: #333;
+    vertical-align: middle;
+}
+button, input, select, textarea {
+    font-size: 100%;
+}
+.product_control_check label.c000 {
+    color: #000;
+}
+.product_control_check label {
+    padding-right: 15px;
+    cursor: pointer;
+    color: #666;
+    padding-top: 4px;
+    /* *padding-top: 2px; */
+}
+.product_control_check label input {
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+}
+.product_control_search div {
+    position: relative;
+    width: 192px;
+    height: 24px;
+    padding: 10px 0 0;
+    font-size: 0;
+    vertical-align: middle;
+}
+.product_control_search span {
+    width: 149px;
+    height: 22px;
+    display: inline-block;
+    border: 1px solid #ededed;
+    background-color: #fff;
+    border-right: none;
+}
+.product_control_search span input {
+    width: 139px;
+    height: 15px;
+    margin-top: 3px;
+    line-height: 15px\9;
+    padding-left: 10px;
+    border: 0 none;
+    border-radius: 0;
+}
+.product_control_search .goBtn {
+    width: 40px;
+    height: 19px;
+    padding-top: 3px;
+    height: 18px\9;
+    padding-top: 4px\9;
+    display: inline-block;
+    position: absolute;
+    right: 1px;
+    top: 10px;
+    text-align: center;
+    color: #666;
+    border: 1px solid #ededed;
+    background: #fff;
+}
+.product_control_page {
+    position: absolute;
+    right: 30px;
+    top: 12px;
+    height: 19px;
+}
+.product_control_page a.off, .product_control_page a:hover.off {
+    color: #bfbfbf;
+    cursor: not-allowed;
+    border: 1px solid #ccc;
+    z-index: 0;
+}
+.page-prev, .page-next {
+    width: 18px;
+    height: 18px;
+    line-height: 0px;
+    display: inline-block;
+    /* float: left; */
+    text-align: center;
+    border: 1px solid #ccc;
+}
+.product_control_page a.page-prev.off:hover i, .product_control_page a.page-prev.off i {
+    background-position: -186px 0px;
+}
+.product_control_page a.page-prev i {
+    background-position: -186px -29px;
+}
+.product_control_page a i {
+    width: 6px;
+    height: 9px;
+    display: inline-block;
+    position: relative;
+    top: 4px;
+}
+.product_control_page span {
+    float: left;
+    height: 20px;
+    line-height: 19px;
+    padding: 0 10px;
+    color: #333;
+}
+.product_control_page span b {
+    color: #e93b39;
+}
+/* 商品列表 */
+.commodity-list {
+    background: #fff;
+    font-size: 0;
+    padding: 30px 40px 2px;
+}
+.commodity-list dl {
+    width: 240px;
+    height: 360px;
+    margin: 0 25px 56px 25px;
+    vertical-align: top;
+    position: relative;
+    z-index: 1;
+    margin: 0 20px 65px 20px;
+}
+.commodity-list dl div.show_tips {
+    transition: border-color 1s cubic-bezier(0.35, 0.2, 0.55, 1.0);
+    border-color: #dedcdc;
+}
+.commodity-list dl dt {
+    width: 240px;
+    height: 240px;
+    background: url(http://pic16.secooimg.com/imagesPic/searchlist/snew_loading.jpg) no-repeat center 140px;
+}
+.commodity-list .dl_size {
+    width: 240px;
+    background: #f5f5f5;
+    display: none;
+    text-align: center;
+}
+.commodity-list dl dd.dl_tips {
+    height: 16px;
+    width: 240px;
+    font-size: 0;
+    margin-top: 15px;
+}
+.commodity-list dl dd.dl_tips span.s1 {
+    background: #000;
+    line-height: 14px;
+}
+.commodity-list dl dd.dl_tips span.s2 {
+    background: #e93b39;
+    line-height: 14px;
+}
+
+.commodity-list dl dd.dl_tips span {
+    line-height: 14px;
+}
+.commodity-list dl dd.dl_tips span {
+    padding: 0 4px;
+    height: 16px;
+    line-height: 18px;
+    line-height: 16px\9\0;
+    margin: 0 3px 0 0;
+    color: #fff;
+}
+.commodity-list dl dd.dl_name {
+    height: 28px;
+    padding: 8px 0 3px;
+    line-height: 15px;
+    overflow: hidden;
+    border-top: 1px solid #ebebeb;
+    margin-top: 10px;
+}
+.commodity-list dl dd.dl_name a:visited {
+    color: #666 !important;
+}
+.commodity-list dl dd.dl_price {
+    padding-top: 3px;
+}
+.commodity-list dl dd.dl_price span {
+    font: bold 12px/16px "Tahoma";
+}
+.commodity-list dl dd.dl_price span, .commodity-list dl dd.dl_price b {
+    float: left;
+    line-height: 16px;
+    /* *margin-top: -3px; */
+}
+.commodity-list dl dd.dl_price span i {
+    font: bold 12px/16px "microsoft yahei";
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.commodity-list dl dd.add_cart a {
+    display: inline-block;
+    width: 70px;
+    height: 22px;
+    text-align: center;
+    margin-top: 6px;
+    line-height: 20px;
+    line-height: 25px\9\0;
+    color: #fff;
+    background: #e93b39;
+}
+.commodity-list .add_cart .deal-cnt {
+    padding-left: 0;
+}
+dd.add_cart .deal-cnt {
+    display: inline-block;
+    padding-left: 10px;
+    color: #999;
+}
+.commodity-list dl span.loveHeart {
+    position: absolute;
+    width: 38px;
+    text-indent: 14px;
+    height: 20px;
+    background: url(http://pic16.secooimg.com/imagesPic/searchlist/repeat-d1.png) no-repeat 0 6px;
+    right: 13px;
+    bottom: 20px;
+    display: none;
+    cursor: pointer;
+    color: #999;
+    line-height: 20px;
+    line-height: 22px\0;
+    /* *line-height: 22px; */
+}
+.commodity-list dl span.tipState {
+    display: none;
+    position: absolute;
+    width: 90px;
+    top: 163px;
+    left: 50%;
+    margin-left: -50px;
+    background: url(http://pic16.secooimg.com/imagesPic/searchlist/tipbg.png) repeat;
+    color: #000;
+    text-align: center;
+    padding: 9px 5px;
+}
+.m-style{
+    width: 100%;
+    padding: 0 100px;
+    margin: 0px auto;
+}

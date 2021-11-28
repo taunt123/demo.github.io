@@ -1,0 +1,210 @@
+body, html, div, dl, dt, dd, ul, li, ol, h1, h2, h3, h4, h5, h6, form, fieldset, input, textarea, p, th, td, a, img, span {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: tahoma,arial,\5b8b\4f53,sans-serif;
+}
+body, html {
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/* 头部 */
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #333231;
+}
+.headerCenter{
+    width: 62.5%;
+    height: 100%;
+    margin: 0 auto;
+    min-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerCenter div:first-child{
+    width: 30px;
+    height: 100%;
+}
+.headerCenter div:last-child{
+    width: 250px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.headerCenter div a{
+    display: inline-block;
+    height: 100%;
+    width: 33.333333%;
+    color: #999999;
+    text-align: center;
+    line-height: 70px;
+}
+.headerCenter div a:hover{
+    color: #F8A120;
+}
+/* 注册页需要的CSS样式 */
+main{
+    width: 100%;
+    height: 720px;
+    padding: 30px 0;
+    background-color: #FDF8F4;
+}
+.box{
+    height: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    background-image: url(../img/login_03.jpg);
+    background-repeat: no-repeat;
+    background-position-y: -70px;
+}
+.reg_center{
+    width: 310px;
+    padding: 30px 35px;
+    float: right;
+    background-color: #fff;
+    margin-top: 80px;
+    position: relative;
+}
+.reg_center p{
+    width: 310px;
+    height: 40px;
+    line-height: 40px;
+}
+.reg_center p:first-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.reg_center p input{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #999999;
+}
+.reg_center p input:hover{
+    border: 1px solid #000000;
+}
+.reg_center input{
+    width: 310px;
+    height: 40px;
+    text-indent: 1em;
+}
+.reg_center p input[type='text']:focus,.reg_center p input[type='password']:focus{
+    border: 1px solid #F8A120;
+    box-shadow: 0px 0px 5px 2px #F8A120;
+}
+.reg_center input[type='checkbox']{
+    width: 15px;
+    height: 15px;
+    line-height: 40px;
+    vertical-align: middle;
+    text-indent: 0em;
+}
+.reg_center input[type='button']{
+   background-color: #F8A120;
+   color: #fff;
+   cursor: pointer;
+   text-indent: 0em;
+}
+.reg_center p a{
+    color: black;
+}
+.reg_center p a:hover{
+    color: #999999;
+}
+/* 登录页需要的CSS样式 */
+.reg_center .inner1{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reg_center>.inner1>p{
+    width: 50%;
+    height: 100%;
+    display: block;
+    text-align: center;
+}
+.reg_center>.inner1>p a{
+    font-size: 20px;
+}
+.inner2{
+    text-align: center;
+}
+.inner2-1{
+    font-size: 16px;
+    text-align: center;
+}
+.reg_center .inner2-1 a{
+    color: #F8A120;
+    font-size: 16px;
+}
+.inner3{
+    display: none;
+}
+.inner4 img{
+    height: 20px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+.inner4 p:last-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inner4 p:last-child a{
+    color: #F8A120;
+}
+/* 尾部 */
+footer{
+    width: 100%;
+    height: 380px;
+    padding-top: 70px;
+    background-color: #F5F5F5;
+    border-top: 1px solid #fff;
+}
+.footCenter{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    /* padding: 37px 0 0; */
+}
+.footTop{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.footTop ul{
+    width: 25%;
+}
+.footTop ul li a,.mid p,.mid p span{
+    font-size: 16px;
+    line-height: 35px;
+    color: black;
+}
+.footTop ul li a:hover{
+    cursor: pointer;
+    color:#F8A120;
+}
+.mid p{
+    display: flex;
+    justify-content: space-between;
+}
+.mid img{
+    line-height: 35px;
+    vertical-align: middle;
+}
+.mid{
+    margin: 30px 0;
+}
+.bot img{
+    margin-right: 15px;
+}
+

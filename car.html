@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/cookie.js"></script>
+    <link rel="stylesheet" href="./css/index-head-foot.css">
+    <link rel="stylesheet" href="./css/car.css">
+    <script>
+        var span = document.querySelector("span");
+        //判断cookie的email键所对应的值
+        var n = getCookie('email');
+        span.innerHTML = decodeURI(n);
+        //判断当前n是否有值
+        // if (n) {
+        //     span.innerHTML = decodeURI(n);
+        // } else {
+        //     alert('请先登录后再进行操作');
+        //     location.href = './login.html';
+        // }
+    </script>
+</head>
+<body>
+    <script src="./js/indexhead.js"></script>
+    <main>
+        <h2><span></span>的购物车</h2>
+    </main>
+    
+    <script src="./js/indexfoot.js"></script>
+</body>
+
+</html>

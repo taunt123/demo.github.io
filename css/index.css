@@ -1,0 +1,264 @@
+body, html, div, dl, dt, dd, ul, li, ol, h1, h2, h3, h4, h5, h6, form, fieldset, input, textarea, p, th, td, a, img, span {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: tahoma,arial,\5b8b\4f53,sans-serif;
+}
+body, html {
+    overflow-x: hidden;
+}
+ul li{
+    list-style: none;
+}
+/* 中部主要内容 */
+main{
+    width: 100%;
+    padding-top: 20px;
+}
+/* 第一部分 */
+/* 第一部分左部 */
+.hcontainer{
+    width: 1200px;
+    margin: 0 auto;
+    height: 980px;
+}
+.secoo-trend {
+    position: relative;
+    float: left;
+    width: 530px;
+    height: 900px;
+}
+.top-img {
+    top: 0;
+    z-index: 1;
+}
+.bottom-img {
+    bottom: 0;
+    z-index: 3;
+}
+.top-img,.bottom-img {
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+.secoo-trend img {
+    width: 100%;
+}
+.bg-mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    z-index: 1;
+    transition: opacity linear 0.2s;
+}
+.secoo-trend:hover .bg-mask{
+    opacity: 0.6;
+    
+}
+/* 第一部分右部 */
+.international-brands {
+    position: relative;
+    float: right;
+    width: 650px;
+    height: 410px;
+}
+.left-img, .right-img {
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+.left-img {
+    left: 0;
+    z-index: 2;
+}
+.right-img {
+    z-index: 1;
+    right: 0;
+}
+.right-img:hover .bg-mask{
+    opacity: 0.6;
+}
+/* 第一部分video */
+.banner-video {
+    position: relative;
+    float: right;
+    width: 650px;
+    height: 550px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #000;
+}
+.banner-video video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+/* 第二部分 */
+.editor-pick{
+    width: 1200px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+.editor-pick .title {
+    width: 100%;
+    height: 38px;
+    margin-bottom: 40px;
+    background: url(http://mpic.secooimg.com/images/2018/11/07/editor-pick.png) no-repeat center/266px 38px, url(http://mpic.secooimg.com/images/2018/11/07/title-line.png) no-repeat bottom;
+}
+.outer{
+    position: relative;
+    overflow: hidden;
+    width: 232px;
+    height: 400px;
+    background-color: #FFB81C;
+}
+.outer:hover .inner{
+    transform: translateY(-15px);
+}
+.outer:hover p{
+    color: #FFB81C;
+}
+.inner {
+    float: left;
+    width: 240px;
+    height: 400px;
+    margin-right: 10px;
+    transition: transform linear 0.2s;
+    background-color: #f5f5f5;
+
+}
+.product-img{
+    width: 100%;
+
+}
+.product-img .mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    opacity: 0.3;
+}
+.inner a .product-img img{
+    width: 100%;
+}
+.product-details {
+    padding: 34px 27px 3px;
+}
+.product-details p {
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #000;
+}
+.product-name {
+    height: 28px;
+    font-size: 18px;
+    font-family: 'CASLON224STD-BOOKITALIC';
+}
+.product-desc {
+    height: 44px;
+    /* margin-bottom: 30px; */
+    font-size: 12px;
+}
+.line {
+    width: 80px;
+    height: 2px;
+    margin-bottom: 18px;
+    background-color: #000;
+}
+.product-price {
+    font-family: 'FuturaLT-Light';
+    font-size: 14px;
+}
+.bottom-dir .prev {
+    margin-left: -64px;
+}
+.bottom-dir .next {
+    margin-left: 4px;
+}
+.bottom-dir .prev, .bottom-dir .next{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 60px;
+    height: 100%;
+}
+.swiper-button-next,.swiper-button-prev{
+    color: black;
+}
+.bottom-dir {
+    position: relative;
+    width: 100%;
+    height: 57px;
+    margin-top: 30px;
+    background: url(http://mpic.secooimg.com/images/2018/11/07/editor-pick-logo.png) no-repeat center/128px 57px, url(http://mpic.secooimg.com/images/2018/11/07/bottom-line.png) no-repeat 100%/100%;
+}
+/* 第三部分 */
+.swiper-container.fashion-wardrobe{
+    position: relative;
+    height: 800px;
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.swiper-slide img{
+    width: 1200px;
+}
+/* 第四部分 */
+.secoo-app{
+    height: 300px;
+    width: 1200px;
+    margin: 30px auto;
+}
+
+
+/* 第五部分 */
+.plate-entry {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.plate-entry>li {
+    position: relative;
+
+    width: 380px;
+    height: 600px;
+
+}
+.plate-entry>li .bg-mask:hover{
+    opacity: 0.6;
+}
+/* 寺库世界 */
+.world-of-secoo{
+    padding-top: 60px;
+    background-color: #ffb81c;
+}
+.world-of-secoo .title {
+    height: 109px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 51px;
+    text-align: center;
+}
+img{
+    vertical-align: middle;
+    border: 0;
+}
+.world-of-secoo ul {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

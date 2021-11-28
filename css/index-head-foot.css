@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+a{
+    text-decoration: none;
+    color: black;
+}
+body>img{
+    position: absolute;
+    left: 200px;
+    bottom: 15px;
+}
+/* 头部 */
+header{
+    height: 180px;
+    width: 100%;
+}
+.head1,.head2{
+    width: 100%;  
+}
+.head1{
+    height: 130px;
+    background-color: #fff;
+}
+.head2{
+    height: 50px;
+    background-color: #000;
+}
+.head1Center{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head1 a{
+    font-size: 14px;
+}
+.head1 a:hover{
+    color: #FFB81C;
+}
+.border1{
+    border-right: 1px solid black;
+}
+.head1Left span {
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+   
+}
+.head1Right span{
+    display: inline-block;
+    height: 100%;
+    width: 33.333%;
+    text-align: center;
+}
+.head1Left{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head1Right{
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head2Center{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head2Left{
+    width: 880px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.head2Right{
+    height: 100%;
+    width: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.head2Left li{
+    width: 81px;
+    height: 50px;
+}
+.head2Left li:hover .hide{
+    display: block;
+    z-index: 3;
+}
+.head2Left li a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: #FFB81C;
+    font-size: 14px;
+    line-height: 50px;
+    text-align: center;
+}
+.head2Left li a:hover{
+    color: #fff;
+}
+.hide{
+    position: absolute;
+    left: 0;
+    top: 180px;
+    width: 1920px;
+    height: 400px;
+    display: none;
+    background-color: #FFF;
+}
+.hideCenter{
+    width: 1200px;
+    height: 1005;
+    padding-top: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.hideCenter ul {
+    width: 200px;
+}
+.hideCenter ul li{
+    font-size: 14px;
+    width: 100%;
+    list-style: none;
+}
+.head2Right span{
+    font-size: 14px;
+    color: #FFB81C;
+}
+.head2Right span:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.head2Right img{
+    line-height: 60px;
+    vertical-align: middle;
+}
+/* 底部CSS样式 */
+footer{
+    height: 525px;
+    padding-top: 40px;
+    /* margin-top: 70px; */
+    background-color: #ffb81c;
+    font-size: 16px;
+}
+.footCenter{
+    width: 1200px;
+    margin: 0 auto;
+}
+.footTop{
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footBot{
+    width: 100%;
+
+}
+.left{
+    width: 300px;
+}
+.left>ul>li{
+    width: 300px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.left>p{
+    font-size: 16px; 
+    margin-bottom: 30px;
+}
+.left>ul>li p{
+    width: 50%;
+    font-size: 14px;
+    line-height: 30px;
+}
+.center{
+    width: 600px;
+    height: 230px;
+}
+.center p{
+    width: 600px;
+    text-align: center;
+    font-size: 16px;
+
+}
+.center div{
+    width: 550px;
+    height: 245px;
+    margin:  0 auto;
+}
+.right{
+    width: 300px;
+    height: 230px;
+}
+.right p{
+    width: 300px;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.right ul li{
+    list-style: none;
+    width: 300px;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+}
+.footBot p:first-child,.footBot p:nth-child(2){
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+.footBot p:first-child span,.footBot p:nth-child(2) span{
+    font-size: 14px;
+}
+.footBot p:nth-child(3){
+height: 40px;
+margin: 10px 0;
+}
+.footBot p:nth-child(3) img{
+    height: 100%;
+    margin-right: 40px;
+}
+.footBot p:last-child{
+    width: 300px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footBot p:last-child span{
+    color: #999;
+    line-height: 40px;
+}

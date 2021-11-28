@@ -1,0 +1,194 @@
+body, html, div, dl, dt, dd, ul, li, ol, h1, h2, h3, h4, h5, h6, form, fieldset, input, textarea, p, th, td, a, img, span {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: tahoma,arial,\5b8b\4f53,sans-serif;
+}
+body, html {
+    overflow-x: hidden;
+}
+ul li{
+    list-style: none;
+}
+/* 中部主要内容 */
+body>img{
+    position: fixed;
+    left: 180px;
+    bottom: 15px;
+}
+main{
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #f5f5f5;
+}
+main>div:nth-child(2){
+    box-shadow: 0 0 2px 3px #eee;
+}
+.menu{
+    width: 1200px;
+    height: 65px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu a:hover{
+    color: red;
+}
+.box{
+    width: 1200px;
+    height: 550px;
+    padding: 30px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.div1{
+    width: 480px;
+    height: 400px;
+    float: left;
+}
+.div1Left{
+    width: 78px;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+.mask{
+    display: none;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #000;
+    opacity: 0.5;
+}
+.div1Right img{
+    width: 100%;
+    height: 100%;
+}
+.div1Right{
+    width: 398px;
+    height: 100%;
+    float: right;
+}
+.div1Left,.div1Right{
+    border: 1px solid #EDEDED;
+
+}
+.div2{
+    width: 400px;
+    height: 400px;
+    display: none;position: absolute;
+}
+.div3{
+    width: 680px;
+    margin-left: 30px;
+    float: right;
+}
+.div3>div{
+    padding: 15px;
+}
+.div3 p{
+    line-height: 35px;
+}
+.div3_1,.div3_2{
+    border-bottom: 1px dashed #EDEDED;
+}
+.div3_1 p{
+    font-size: 16px;
+}
+.div3_2 p:nth-child(1){
+    font-size: 18px;
+    color: red;
+}
+.div3_2 p:nth-child(2){
+    font-size: 12px;
+    color: #999;
+}
+.div3_2 p:nth-child(3){
+    font-size: 14px;
+    color: #666;
+}
+.div3_3 p{
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0 ;
+}
+.div3_3 p img{
+    vertical-align: middle;
+}
+.div3_3 p input{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+.addCar{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    color: #fff;
+    background-color: #333333;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 15px 180px;
+}
+.tab{
+    padding:30px;
+    width: 1200px;
+    margin: 30px auto;
+    
+}
+.tabLeft{
+    width: 200px;
+    height: 150px;
+    float: left;
+}
+.tabLeft div{
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 100%;
+    background-color: #333333;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.tabRight{
+    padding: 20px 0;
+    margin-bottom: 30px;
+    width: 970px;
+    float: right;
+    background-color: #fff;
+    box-shadow: 0 0 2px 3px #eee;
+}
+.tabRight .bg{
+    background-color: #7F69B3;
+}
+.tabRight ul{
+    width: 600px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.tabRight ul li{
+    margin: 0 auto;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 25px;
+    color: #fff;
+    background-color: #333333;
+    text-align: center;
+}
+.tabRight li:hover{
+    background-color: #7F69B3;
+}
+.tabRight1{
+    width: 790px;
+    margin: 0 auto;
+    display: none;
+}
+.show{
+    display: block;
+}
